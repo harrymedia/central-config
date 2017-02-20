@@ -10,4 +10,5 @@ eureka:
     instance:
         prefer-ip-address: false
         nonSecurePort: 80
-        appname: beecowGateway-test
+        appname: beecowGateway
+        hostname: http://admin:admin@registry-mediastep.ap-southeast-1.elasticbeanstalk.com

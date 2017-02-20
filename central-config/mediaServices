@@ -1,0 +1,13 @@
+configserver:
+  name: JHipster Registry config server
+  status: Connected to the JHipster Registry config server!
+jhipster:
+  security:
+    authentication:
+      jwt:
+        secret: my-secret-token-to-change-in-production
+eureka:
+    instance:
+        prefer-ip-address: false
+        hostname: ${vcap.application.uris[0]}
+        nonSecurePort: 80

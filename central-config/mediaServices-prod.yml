@@ -9,5 +9,6 @@ jhipster:
 eureka:
     instance:
         prefer-ip-address: false
-        hostname: ${vcap.application.uris[0]}
         nonSecurePort: 80
+        appname: beecowGateway
+        hostname: staging-media-mediastep.ap-southeast-1.elasticbeanstalk.com

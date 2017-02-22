@@ -11,4 +11,4 @@ eureka:
         prefer-ip-address: false
         nonSecurePort: 80
         appname: beecowGateway
-        hostname: 52.221.38.114
+        hostname: gateway-mediastep.ap-southeast-1.elasticbeanstalk.com

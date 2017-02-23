@@ -11,7 +11,7 @@ eureka:
         prefer-ip-address: false
         nonSecurePort: 80
         appname: catalogServices
-        hostname: 52.221.75.156
+        hostname: staging-catalog.ap-southeast-1.elasticbeanstalk.com
 spring:
     data:
         elasticsearch:

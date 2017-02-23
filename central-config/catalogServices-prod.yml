@@ -10,5 +10,5 @@ eureka:
     instance:
         prefer-ip-address: false
         nonSecurePort: 80
-        appname: catalogServices
+        appname: catalogServices2
         hostname: staging-catalog.ap-southeast-1.elasticbeanstalk.com

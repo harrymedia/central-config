@@ -22,5 +22,5 @@ spring:
                   logs: target/elasticsearch/log
                   data: target/elasticsearch/data
     datasource:
-        username: postgres
-        password: postgres
+        username: dbauser
+        password: dbauser

@@ -15,7 +15,7 @@ eureka:
 spring:
     data:
         elasticsearch:
-            cluster-name:elasticsearch
+            cluster-name:
             cluster-nodes:
             properties:
                 path:

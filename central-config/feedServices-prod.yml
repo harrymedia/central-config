@@ -12,4 +12,9 @@ eureka:
         nonSecurePort: 80
         appname: feedServices
         hostname: staging-feed.ap-southeast-1.elasticbeanstalk.com
-
+spring:
+    data:
+        elasticsearch:
+            cluster-name:620662496508:staging-elk
+            cluster-nodes:search-staging-elk-xz63rprmcvpbm74hdf3nwlo534.ap-southeast-1.es.amazonaws.com
+            repositories.enabled=true

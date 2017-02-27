@@ -16,4 +16,4 @@ spring:
     data:
         elasticsearch:
             cluster-name:
-            cluster-nodes: search-test-vb3rk64y7s5m5ozqr3q33isvt4.ap-southeast-1.es.amazonaws.com
+            cluster-nodes: search-test-vb3rk64y7s5m5ozqr3q33isvt4.ap-southeast-1.es.amazonaws.com:80

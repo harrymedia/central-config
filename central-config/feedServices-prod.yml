@@ -15,9 +15,5 @@ eureka:
 spring:
     data:
         elasticsearch:
-            cluster-name:
+            cluster-name:search-staging-elk-xz63rprmcvpbm74hdf3nwlo534.ap-southeast-1.es.amazonaws.com
             cluster-nodes:
-            properties:
-                path:
-                  logs: target/elasticsearch/log
-                  data: target/elasticsearch/data

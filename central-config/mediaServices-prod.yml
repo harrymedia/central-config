@@ -11,4 +11,4 @@ eureka:
         prefer-ip-address: false
         nonSecurePort: 80
         appname: mediaServices
-        hostname: staging-media-mediastep.ap-southeast-1.elasticbeanstalk.com
+        hostname: staging-media.ap-southeast-1.elasticbeanstalk.com

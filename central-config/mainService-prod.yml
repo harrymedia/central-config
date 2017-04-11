@@ -10,5 +10,14 @@ eureka:
     instance:
         prefer-ip-address: false
         nonSecurePort: 80
-        appname: homeService
+        appname: mainService
         hostname: staging-home.ap-southeast-1.elasticbeanstalk.com
+ spring:
+    data:
+        elasticsearch:
+            cluster-name:
+            cluster-nodes:
+            properties:
+                path:
+                  logs: target/elasticsearch/log
+                  data: target/elasticsearch/data

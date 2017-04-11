@@ -21,6 +21,3 @@ spring:
                 path:
                   logs: target/elasticsearch/log
                   data: target/elasticsearch/data
-    datasource:
-        username: dbauser
-        password: dbauser

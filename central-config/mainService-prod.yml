@@ -10,7 +10,7 @@ eureka:
     instance:
         prefer-ip-address: false
         nonSecurePort: 80
-        appname: homeService
+        appname: mainService
         hostname: staging-home.ap-southeast-1.elasticbeanstalk.com
  spring:
     data:

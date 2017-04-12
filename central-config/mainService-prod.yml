@@ -12,7 +12,7 @@ eureka:
         nonSecurePort: 80
         appname: mainService
         hostname: staging-home.ap-southeast-1.elasticbeanstalk.com
- spring:
+spring:
     data:
         elasticsearch:
             cluster-name:

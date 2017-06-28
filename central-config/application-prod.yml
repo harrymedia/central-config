@@ -12,7 +12,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: my-secret-token-to-change-in-production
+                secret: rrnv1DEfHtinFgZdW5GCABONjZ1QFXRnkxmc2vpaB
 spring:
     cloud:
         stream:

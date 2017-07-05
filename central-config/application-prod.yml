@@ -20,3 +20,7 @@ spring:
                 binder:
                     brokers: 172.31.3.68:9092
                     zk-nodes: 172.31.16.53:2181/kafka
+aws:
+    cdn:
+        cupid: https://d3s6uqvw4m9mv9.cloudfront.net
+        docs: https://d2wimnuwlet7ii.cloudfront.net

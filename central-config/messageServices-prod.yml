@@ -7,6 +7,17 @@ eureka:
         nonSecurePort: 80
         appname: messageServices
         hostname: staging-message.ap-southeast-1.elasticbeanstalk.com
+beecow:
+    debugMode: true
+    messageServices:
+        firebase:
+            private-key-file-path: classpath:config/firebase-admin-staging.json
+            url: https://beecow-staging.firebaseio.com
+            rootPath:
+            userNode: Users
+            roomNode: Rooms
+            timeout: 30
+            timeoutUnit: SECONDS
 spring:
     data:
         elasticsearch:

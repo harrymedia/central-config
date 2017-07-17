@@ -7,6 +7,11 @@ eureka:
         nonSecurePort: 80
         appname: notifyServices
         hostname: staging-notify.ap-southeast-1.elasticbeanstalk.com
+application:
+    #ios-app-arn: arn:aws:sns:ap-southeast-1:620662496508:app/APNS/beecow-ios-prod
+    ios-app-arn: arn:aws:sns:ap-southeast-1:620662496508:app/APNS_SANDBOX/beecow-ios-sandbox
+    android-app-arn: arn:aws:sns:ap-southeast-1:620662496508:app/GCM/beecow-android-staging
+    push-notify-profile: dev
 spring:
     data:
         elasticsearch:
